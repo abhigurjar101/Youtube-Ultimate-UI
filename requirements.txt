@@ -8,3 +8,4 @@ textblob
 wordcloud
 youtube-transcript-api
 google-generativeai
+streamlit>=1.34.0
