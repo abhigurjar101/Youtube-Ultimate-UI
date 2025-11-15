@@ -199,7 +199,7 @@ def ai_content_engine(video_id, title, tags):
 
     try:
         # UPDATED MODEL TO 1.5 FLASH
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel('gemini-pro')
         
         prompt = f"""
         Act as a Viral Content Strategist.
